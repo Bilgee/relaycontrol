@@ -1,0 +1,9 @@
+ENV: PROD
+PROD:
+  LOG:
+    PATH: logs/
+    NAME: process.log
+    LEVEL: 20 #only info level
+  RELAY:
+    IN: http://192.168.1.150/relay_cgi.cgi
+    OUT: http://192.168.1.150/relay_cgi.cgi
